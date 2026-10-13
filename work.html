@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Work · Devansh Shah</title>
+  <meta name="description" content="Work by Devansh Shah: warranty fraud detection, finance AI workflows and side projects.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="index.html">Devansh Shah</a>
+        <nav class="nav" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="work.html" aria-current="page">Work</a>
+          <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+      <section style="padding-top: 56px;">
+        <h1 class="section-title">Work that <span class="hl">mattered</span></h1>
+        <p class="lead">Stories from Ola Electric, then the side projects I build because I can't help it.</p>
+
+        <div class="piece">
+          <div class="piece-kicker"><strong>Warranty fraud detection</strong>Ola Electric · Product lead</div>
+          <div>
+            <h3>Teaching a system to catch clever cheats</h3>
+            <p>Warranty claims had grown past what anyone could review by hand, so most were getting auto-approved. Technicians noticed. They'd upload videos of working parts, get the replacement approved, and sell the part.</p>
+            <p>I led the team that built an agentic system to check every claim video against the defect standard for that specific part, using vision models. I designed the eval set myself from real claims and the edge cases technicians actually produced. Every time they found a new trick, we studied it and tightened the evals. It became a cat-and-mouse game, and the system got genuinely better because of it.</p>
+            <div class="big">US$400k</div>
+            <div class="big-l">saved every month, live across 300 service stores</div>
+            <div class="aside"><strong>What I'd say in a room:</strong> the eval set and the iteration loop are the real work. The model was the easy part.</div>
+          </div>
+        </div>
+
+        <div class="piece">
+          <div class="piece-kicker"><strong>Business Finance spend</strong>Ola Electric · Ownership</div>
+          <div>
+            <h3>No handover, so I drew my own map</h3>
+            <p>Early on, people left the Business Finance team and the work landed on me. I didn't know the area, and there was no clean handover, just expense data and a function I'd never run.</p>
+            <p>So I broke the spend down vendor by vendor and activity by activity. I went straight to the business owners and asked what each expense was supposed to achieve. Two big levers came out of that, and with senior leaders I rationalised the spend and tightened the monthly controls so the savings would stick.</p>
+            <div class="big">US$300k</div>
+            <div class="big-l">a month in steady-state savings (about Rs 2.5 crore)</div>
+          </div>
+        </div>
+
+        <div class="piece">
+          <div class="piece-kicker"><strong>Agentic finance workflows</strong>Ola Electric · Builder</div>
+          <div>
+            <h3>Four workflows, 50+ people, zero blind trust</h3>
+            <p>I designed and shipped four agentic AI workflows across Corporate and Business Finance. They handle cross-document diligence, weekly management reporting and first-draft collateral.</p>
+            <p>The rule I kept: AI produces the draft, a person reviews it. That's what made people actually use these, rather than poke at them once and quietly go back to spreadsheets.</p>
+          </div>
+        </div>
+
+        <div class="piece">
+          <div class="piece-kicker"><strong>AI legal due-diligence agent</strong>Ola Electric · Design</div>
+          <div>
+            <h3>An agent that knows when to stop and ask</h3>
+            <p>Diligence requests come in with changing instructions, shifting contacts, missing documents and a lot of follow-ups. A fixed workflow breaks the moment the next step depends on someone's reply.</p>
+            <p>So the agent tracks the owner, status, missing items and last action for every request. Deterministic code handles the predictable steps. A language model handles only the judgment calls. Anything uncertain or high-risk goes to a human. I'd rather the agent asks than guesses.</p>
+          </div>
+        </div>
+
+        <div class="piece">
+          <div class="piece-kicker"><strong>A refinancing that wouldn't close</strong>Ola Electric · Stakeholder work</div>
+          <div>
+            <h3>Five doors closed. Then we changed the room.</h3>
+            <p>We spent months trying to refinance a term loan. Most lenders passed, some after a month of paperwork, and nobody gave a clear reason. What I learned: a pass usually says more about the person in the room than the company. Those credit officers didn't have the appetite or authority to say yes.</p>
+            <p>So we changed the room. Senior leadership started speaking to the banks directly, and I set those conversations up. Three senior lender conversations are active now. The deal is still in evaluation, so I won't call it a win yet.</p>
+          </div>
+        </div>
+
+        <div class="piece">
+          <div class="piece-kicker"><strong>FY26 audit close</strong>Ola Consumer · Project lead</div>
+          <div>
+            <h3>No finance background, a hard date</h3>
+            <p>The CEO of Ola Consumer asked me to run the FY26 audit close. I had no finance expertise, so my job was to get the experts moving. I set up the working group, chased the audit managers for a day-by-day plan, and held the sign-off to 23 October. The ask was simple: keep everyone accountable to a date.</p>
+          </div>
+        </div>
+
+        <div class="piece">
+          <div class="piece-kicker"><strong>Government R&amp;D application</strong>Ola Electric · Strategic finance</div>
+          <div>
+            <h3>A spreadsheet is never the whole case</h3>
+            <p>I coordinated six teams on a US$60m research-funding application, then represented Ola in meetings with senior government officials. It was never a spreadsheet exercise. Each team's inputs had to become one coherent case.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Side projects</h2>
+        <p class="lead">Built on nights, weekends and the occasional hackathon. Some are live, some are sketches with good intentions.</p>
+        <div class="projects">
+          <div class="project">
+            <h3>PaperTrail</h3>
+            <p>An AI document assistant, live and maintained.</p>
+            <a href="https://papertrailkrava.vercel.app">Open the app</a>
+          </div>
+          <div class="project">
+            <h3>Margin</h3>
+            <p>Approval-gated SaaS spend recovery. It reads contracts, invoices and live pricing, and a human verifies before anything happens.</p>
+          </div>
+          <div class="project">
+            <h3>Summon</h3>
+            <p>Turns a product idea into an interactive app prototype. It asks the product questions first, the way a good PM would.</p>
+          </div>
+          <div class="project">
+            <h3>Prism &amp; Jewel</h3>
+            <p>Geo-localised CPG imagery (Prism), and GPT-4o vision generating jewellery descriptions (Jewel).</p>
+            <a href="https://github.com/hellodevansh/jewel">Jewel on GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <h2>Want the details?</h2>
+        <p>Ask for the story behind any of these. I'm happy to walk through the decisions, the trade-offs and the parts that didn't work.</p>
+        <a href="mailto:hellodevansh@gmail.com">Ask me anything</a>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <div class="wrap">
+      <span>&copy; 2026 Devansh Shah. Built with curiosity and too much coffee.</span>
+      <span><a href="mailto:hellodevansh@gmail.com">hellodevansh@gmail.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/hellodevansh/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://github.com/hellodevansh">GitHub</a></span>
+    </div>
+  </footer>
+</body>
+</html>
